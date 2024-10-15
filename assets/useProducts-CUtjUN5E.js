@@ -1,1 +1,0 @@
-import{r as t}from"./index-DCJW8iNa.js";import{g as n}from"./products.api-Cr5BJIRN.js";const i=()=>{const[r,o]=t.useState(null),[a,e]=t.useState([]),[c,u]=t.useState(!0);return t.useEffect(()=>{(async()=>{try{const s=await n();e(s)}catch(s){o(s.message)}finally{u(!1)}})()},[]),{products:a,loading:c,error:r,setProducts:e}};export{i as u};
