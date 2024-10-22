@@ -1,1 +1,0 @@
-import{r as t}from"./index-Ql4K0yO-.js";import{g as n}from"./products.api-BWd87ZH8.js";const i=()=>{const[r,o]=t.useState(null),[a,e]=t.useState([]),[c,u]=t.useState(!0);return t.useEffect(()=>{(async()=>{try{const s=await n();e(s)}catch(s){o(s.message)}finally{u(!1)}})()},[]),{products:a,loading:c,error:r,setProducts:e}};export{i as u};

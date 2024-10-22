@@ -1,1 +1,0 @@
-import{a_ as s}from"./index-Ql4K0yO-.js";const a=async()=>{try{return(await s.get("/")).data}catch(e){throw new Error(`${e.response.data.message}`)}},o=async e=>{try{return(await s.get(`/${e}`)).data}catch(r){throw new Error(`${r.response.data.message}`)}};export{a,o as g};
